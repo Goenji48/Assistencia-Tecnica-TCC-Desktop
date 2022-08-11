@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AccountController">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: black;">
+         <children>
+            <Button fx:id="btnCreate" layoutX="274.0" layoutY="541.0" mnemonicParsing="false" text="Criar" />
+            <TextField fx:id="txtRG" layoutY="80.0" prefWidth="600.0" promptText="RG" style="-fx-background-color: #303030; -fx-text-fill: white;" />
+            <TextField fx:id="txtName" layoutY="120.0" prefWidth="600.0" promptText="Name" style="-fx-background-color: #303030; -fx-text-fill: white;" />
+            <TextField fx:id="txtUsername" layoutY="160.0" prefWidth="600.0" promptText="Username" style="-fx-background-color: #303030; -fx-text-fill: white;" />
+            <TextField fx:id="txtEmail" layoutY="200.0" prefWidth="600.0" promptText="Email" style="-fx-background-color: #303030; -fx-text-fill: white;" />
+            <PasswordField fx:id="txtPassword" layoutY="240.0" prefWidth="600.0" promptText="Password" style="-fx-background-color: #303030; -fx-text-fill: white;" />
+            <PasswordField fx:id="txtConfirmPassword" layoutY="280.0" prefWidth="600.0" promptText="Confirm Password" style="-fx-background-color: #303030; -fx-text-fill: white;" />
+            <TextField fx:id="txtDate" layoutY="320.0" prefWidth="600.0" promptText="dd/mm/aaaa" style="-fx-background-color: #303030; -fx-text-fill: white;" />
+            <TextField fx:id="txtPhone" layoutY="360.0" prefWidth="600.0" promptText="Phone" style="-fx-background-color: #303030; -fx-text-fill: white;" />
+            <TextField fx:id="txtCEP" layoutY="400.0" prefWidth="600.0" promptText="CEP" style="-fx-background-color: #303030; -fx-text-fill: white;" />
+            <TextField fx:id="txtHouseNumber" layoutY="440.0" prefWidth="600.0" promptText="House Number" style="-fx-background-color: #303030; -fx-text-fill: white;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
